@@ -558,7 +558,9 @@ private static void saveTaxCalculation(String username, double taxAmount, double
                 }
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+            e.printStackTrace();     
+            
+            
             // Handle the exception appropriately
         }
     }
