@@ -8,6 +8,8 @@
  *
  * @author kuldeepshukla
  */
+// Github Link https://github.com/2022429/Pairproject/blob/master/Pairproject/src/Pairproject.java
+
 
 import java.sql.*;
 import java.util.Scanner;
@@ -573,7 +575,7 @@ private static void saveTaxCalculation(String username, double taxAmount, double
             viewUserWorks(username);
 
             // Get the work ID to be deleted
-            System.out.println("Enter the ID of the work you want to delete: ");
+            System.out.println("Enter the ID of the work you want to delete:");
             int workIdToDelete = scanner.nextInt();
 
             // Delete the work
