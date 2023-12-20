@@ -20,9 +20,9 @@ public class Pairproject {
 
 
     static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost:3306/ca50";
-    static final String USER = "root";
-    static final String PASS = "password";
+    static final String DB_URL = "jdbc:mysql://127.0.01:3306/ca50";
+    static final String USER = "ooc2023";
+    static final String PASS = "ooc2023";
 
     static Connection conn = null;
     static Statement stmt = null;
@@ -492,8 +492,7 @@ private static void saveTaxCalculation(String username, double taxAmount, double
                 throw new SQLException("User not found.");
             }
         }
-    }   
-    
+    }
 
     private static void viewUserDetails(String username) {
         try {
@@ -560,9 +559,7 @@ private static void saveTaxCalculation(String username, double taxAmount, double
                 }
             }
         } catch (SQLException e) {
-            e.printStackTrace();     
-            
-            
+            e.printStackTrace();
             // Handle the exception appropriately
         }
     }
@@ -598,7 +595,7 @@ private static void saveTaxCalculation(String username, double taxAmount, double
         }
     }
 
-    // Other methods...
+  
 
 
 }
