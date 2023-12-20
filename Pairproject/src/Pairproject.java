@@ -12,7 +12,7 @@
 import java.sql.*;
 import java.util.Scanner;
 
-public class ooc {
+public class Pairproject {
    
 
 
@@ -490,7 +490,8 @@ private static void saveTaxCalculation(String username, double taxAmount, double
                 throw new SQLException("User not found.");
             }
         }
-    }
+    }   
+    
 
     private static void viewUserDetails(String username) {
         try {
